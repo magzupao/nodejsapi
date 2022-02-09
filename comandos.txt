@@ -1,0 +1,22 @@
+Se crea el proyecto 
+
+Acciones a ejecutar para crear el proyecto
+ cd nodejs/projexpress/
+ npm init
+ cat package.json 
+ npm install
+
+ # si pide actualizar el npm se actualiza
+ sudo npm install -g npm@8.4.1
+ npm install
+ 
+ #instalamos el framework express
+ npm install --save express
+ npm install
+ 
+ #para que el proyecto pueda parsear el response en Json instalamos:
+ npm install --save body-parser
+ npm install
+
+ #instalamos la utilidad cron
+ npm install node-cron
